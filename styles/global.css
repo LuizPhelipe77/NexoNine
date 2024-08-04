@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*cores*/
+    --color-btn-avião: #00ff85;
+    --color-logo: #68de68;
+    --white: #ffffff;
+    --curtidas: #00e0ff;
+    --comentarios: #ffb800;
+
+    --ff-base: "syne", sans-serif;
+
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.5rem;
+    --text-xl: 2rem;
+}
+
+html {
+    font: 400 1rem/1.5 var(--ff-base);
+}
+
+h1, h2 {
+    font-family: "syne", sans-serif;
+}
+
+h1 {
+    font-size: var(--text-xl);
+    line-height: 1.25;  /*altura da linha*/
+}
+
+h2 {
+    font-size: var(--text-lg);
+    line-height: 1.2;
+}
