@@ -1,0 +1,44 @@
+header {
+    max-width: 20rem;
+    width: 100%;
+    padding: 1rem 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div img {
+        position: absolute;
+        z-index: -1;
+        width: 15rem;
+        height: 10rem;
+        top: -2rem;
+        left: -1rem;
+    }
+
+    & img{
+        width: 2rem;
+        height: 2rem;
+
+        /*transition: transform 500ms;*/
+    }
+
+    /*img[src*="logo"]:hover {
+        transform: rotate(90deg);
+    }*/
+
+    button {
+        position: relative;
+    }
+
+    button span{
+        position: absolute;
+        top: -0.9rem;
+        
+        background-color: var(--color-logo);
+        border-radius: 50%;
+        border: 0;
+        border-bottom: -5rem;
+    }
+}
+
