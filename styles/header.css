@@ -1,5 +1,11 @@
 header {
-    
+    & a:first-child {
+        margin-right: auto;
+    }
+
+    & img {
+        width: 3rem;
+    }
 
     div img {
         max-width: 20rem;
@@ -15,22 +21,10 @@ header {
         opacity: 0.2;
     }
 
-    p {
-        font-size: 1.5rem;
-        font-family: "Merriweather", serif;  
-        line-height: 1;
-     }
-
     & img{
         width: 2rem;
         height: 2rem;
-
-        /*transition: transform 500ms;*/
     }
-
-    /*img[src*="logo"]:hover {
-        transform: rotate(90deg);
-    }*/
 
     button {
         position: relative;
