@@ -7,12 +7,16 @@
 :root {
     /*cores*/
     --color-btn-avião: #00ff85;
+    --color-black: black;
     --color-logo: #68de68;
     --white: #ffffff;
     --curtidas: #00e0ff;
     --comentarios: #ffb800;
 
     --ff-base: "syne", sans-serif;
+    --fw-base: 400;
+    --fw-md: 500;
+    --fw-bold: 800;
 
     --text-sm: 0.875rem;
     --text-base: 1rem;
