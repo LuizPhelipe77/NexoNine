@@ -18,6 +18,12 @@
     --text-base: 1rem;
     --text-lg: 1.5rem;
     --text-xl: 2rem;
+
+    --padding-y-base: 1rem;
+    --padding-y-lg: 1.5rem;
+    --padding-y-xl: 3rem;
+    --padding-x-lg: 1.5rem;
+
 }
 
 html {

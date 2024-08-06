@@ -1,0 +1,13 @@
+section.diretores {
+    .flex {
+        display: flex;
+    }
+    h1 {
+        display: flex;
+        color: var(--white);
+
+        & span {
+            color: var(--white);
+        }
+    }
+}

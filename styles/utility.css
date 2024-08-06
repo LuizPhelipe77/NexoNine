@@ -1,0 +1,23 @@
+.padding-y-base {
+    padding-block: var(--padding-y-base);
+}
+.padding-y-lg {
+    padding-block: var(--padding-y-lg);
+}
+.padding-y-xl {
+    padding-block: var(--padding-y-xl);
+}
+
+.container {
+    --max-width: 375px;
+    margin-inline: auto;
+    width: min(var(--max-width), 100% - var(----padding-x-lg) * 2);
+}
+
+.even-columns {
+    display: grid;
+    gap: 1rem;
+
+    /*grid-auto-flow: column;
+    grid-auto-columns: 1fr;*/
+}
