@@ -1,6 +1,6 @@
 .btn {
     border: 0;
-    background-color: transparent;
+    background-color: var(--white);
 
     display: flex;
     align-items: center;
@@ -9,11 +9,7 @@
 
     border-radius: .5rem;
 
-    background: linear-gradient(
-        90deg,
-        var(--color-btn-avião) 0%,
-        var(--color-black) 100%
-        );
+    
 
     color: var(--white);
 }
@@ -21,4 +17,16 @@
 .btn-lg{
     padding: .5rem .5rem;
     font-size: 1rem;
+
+    background: linear-gradient(
+        90deg,
+        var(--color-btn-avião) 0%,
+        var(--color-black) 100%
+        );
+}
+
+.btn-xl {
+    padding: .4rem;
+    font-size: 1rem;
+    color: black;
 }

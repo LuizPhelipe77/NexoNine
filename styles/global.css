@@ -37,6 +37,7 @@ html {
 
 h1, h2 {
     font-family: "syne", sans-serif;
+    color: var(--white);
 }
 
 h1 {
