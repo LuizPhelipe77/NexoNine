@@ -8,6 +8,10 @@
     padding-block: var(--padding-y-xl);
 }
 
+.padding-x-lg {
+    padding-bottom: 2rem;
+}
+
 .container {
     --max-width: 375px;
     margin-inline: auto;
