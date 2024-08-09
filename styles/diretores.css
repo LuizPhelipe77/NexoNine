@@ -38,4 +38,9 @@ section#diretores {
         margin-top: 0.5rem;
         color: var(--color-highlight);
     }
+
+    .btn-social {
+        color: red;
+        background-color: red;
+    }
 }
