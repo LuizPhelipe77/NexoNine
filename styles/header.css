@@ -1,4 +1,4 @@
-header {
+/*header {
     & a:first-child {
         margin-right: auto;
     }
@@ -40,5 +40,19 @@ header {
         border-bottom: -5rem;
     }
 
+} */
+
+/* Header */
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+
+    a:first-child {
+        margin-right: auto;
+    }
+
+    img {
+        width: 2rem;
+        height: 2rem;
+    }
 }
 

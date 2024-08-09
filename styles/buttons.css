@@ -1,17 +1,12 @@
 .btn {
     border: 0;
-    background-color: var(--white);
-
+    background-color: var(--color-black);
     display: flex;
     align-items: center;
     justify-content: center;
     width: fit-content;
-
     border-radius: .5rem;
-
-    
-
-    color: var(--white);
+    color: var(--color-text);
 }
 
 .btn-lg{
@@ -28,5 +23,7 @@
 .btn-xl {
     padding: .4rem;
     font-size: 1rem;
+    font-weight: 700;
     color: black;
+    background-color: var(--color-highlight);
 }
