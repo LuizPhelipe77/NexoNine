@@ -54,5 +54,10 @@ header {
         width: 2rem;
         height: 2rem;
     }
+
+    .btn {
+        font-size: .8rem;
+        color: black;
+    }
 }
 
