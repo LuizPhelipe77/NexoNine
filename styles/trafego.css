@@ -1,0 +1,11 @@
+#trafego {
+
+
+    img {
+        display: flex;
+        align-self: auto;
+        align-items: center;
+        height: 300px;
+        width: 500px;
+    }
+}
