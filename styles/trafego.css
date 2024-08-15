@@ -1,11 +1,45 @@
-#trafego {
+.traffic-stats {
+    text-align: center;
+    margin-top: 2rem;
 
+    h3 {
+        color: var(--color-black);
+        padding: 1rem;
+        background: var(--color-text);
+        display: block;
+        border-radius: 8px;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
 
-    img {
-        display: flex;
-        align-self: auto;
-        align-items: center;
-        height: 300px;
-        width: 500px;
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: rem;
+        background: var(--color-background);
+        color: var(--color-text);
+        padding: 1rem;
+
+        .row {
+            border: 1px solid var(--color-text);
+            padding: 1rem;
+            display: flex;
+            justify-content: space-around;
+            gap: .5rem;
+        }
+
+        .adsense {
+            display: flex;
+            gap: .3rem;
+            align-items: center;
+        }
+
+        i {
+            font-size: 2rem;
+        }
+
+        span > i {
+            font-size: 3rem;
+        }
     }
 }
