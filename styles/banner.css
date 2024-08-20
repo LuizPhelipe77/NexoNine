@@ -17,15 +17,16 @@
         animation: rolling 4s linear infinite;
 
         & p {
-            color: var(--color-logo);
+            color: var(--text-color);
         }
     }
 
     .bg-gradient-animate {
         background: linear-gradient(
-            45deg,
-            var(--curtidas),
-            var(--color-black)
+            170deg,
+            var(--color-btn-avião) 0%,
+            var(--color-black) 100%
+            );
             
         );
     }

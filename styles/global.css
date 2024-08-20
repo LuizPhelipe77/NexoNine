@@ -69,7 +69,8 @@ a {
 body {
     color: var(--color-text);
     font-family: var(--ff-base);
-    background: url(../assets/Design\ sem\ nome.jpg) no-repeat center;
+    background-color: ;
+    
 
     width: 100%;
 }
